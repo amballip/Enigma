@@ -1,0 +1,38 @@
+::Following are compulsary parameters that need to passed in command line.
+:: -ms | Message to be encrypted or decrypted
+:: -rs | Select 3 rotors among 5. Selection should be made from left to right.
+:: -rp | Select initial positions for 3 rotors. Position is defined from left to right
+
+::If not following flags are defined, Default values are used.
+:: -ll | log level, choose among error,debug,trace. If not defined "error" is used.
+:: -pb | plug board combinations. Max 13 combinations are allowed. If not defined, Its considered plug board is not plugged.
+:: -r1 | Mapping string for rotor no 1, if not passed "kdwjarvylsgpnhboztiexqfmcu" is used;
+:: -r2 | Mapping string for rotor no 2, if not passed "hdrsmvjezpqufixtbnwgocklay" is used;
+:: -r3 | Mapping string for rotor no 3, if not passed "dhymzjrxoqiawlkbupecgsfvnt" is used;
+:: -r4 | Mapping string for rotor no 4, if not passed "wjtpmruvcnqfaehlkyxobzdgis" is used;
+:: -r5 | Mapping string for rotor no 5, if not passed "ndwzhuiyepojvarxlkqcbmsftg" is used;
+:: -rl | Mapping string for reflector, if not passed "ueyvwtzlmfxdbcrhpqogajknsi" is used;
+:: -n1 | Notch position on rotor 1, if not defined, is used;
+:: -n2 | Notch position on rotor 1, if not defined, is used;
+:: -n3 | Notch position on rotor 1, if not defined, is used;
+:: -n4 | Notch position on rotor 1, if not defined, is used;
+:: -n5 | Notch position on rotor 1, if not defined, is used;
+::abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+
+
+-ms=cyandsvfsudgckseyiofnyyewgdqzhoruihcjzdpibeflhaeaurcwpfkvmljzhuiyqsnwyoexkufgodpfrjxlaqwzcnpfxwcjltqywwp
+-rs=4,1,3
+-rp=20,1,13
+-ll=debug
+-pb=mz,sn,jw,fv,dt,ux,qe,ky,oa,ib,rh,pc,gl
+-r1=kdwjarvylsgpnhboztiexqfmcu
+-r2=hdrsmvjezpqufixtbnwgocklay
+-r3=dhymzjrxoqiawlkbupecgsfvnt
+-r4=wjtpmruvcnqfaehlkyxobzdgis
+-r5=ndwzhuiyepojvarxlkqcbmsftg
+-rl=ueyvwtzlmfxdbcrhpqogajknsi
+-n1=10
+-n2=12
+-n3=8
+-n4=15
+-n5=26
